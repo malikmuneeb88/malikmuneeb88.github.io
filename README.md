@@ -1,61 +1,107 @@
-<h1>This is the main heading</h1>
-<h2>This is the second heading</h2>
-<h3>This is the 3rd heading</h3>
-<h4>This is the fourth heading</h4>
-<h5>This is the fifth heading</h5>
-<h6>And this is the last heading</h6>
+# h1 Heading
+## h2 heading
+### h3 heading
+#### h4 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
 
-<br>
-"br"is used for New Line. 
-<br>
-<p>
-    ***This is Paragraph*** <br>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui nulla soluta neque minima voluptates laudantium officia necessitatibus a deserunt minus, odit beatae, sit eos, animi dolorum. Fugiat possimus obcaecati quaerat.</p>
-<br>
-<b>
-    ***Bold Text*** <br>
-    The text written in this line can be BOLD</b>
-<br><br>
-<i>
-    ***Italic*** <br>
-    This text is written in italic
-</i>
+## Horizontal Rules
 
-<blockquote>
-    ***BlockQuotes*** <br>
-    "This is a blockquote example. It is used to quote large sections of text from another source."
-  </blockquote>
+____
 
-<li>li is used for list</li>
 
-<ul>ul is used for un-ordered list</ul>
+## Emphasis
 
-<ol>ol is used for order List</ol>
+**This is bold text**
 
-<div>
-    This is div:
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate iure, ratione tenetur ea consectetur distinctio nihil? Corporis beatae expedita, doloremque, odio deleniti ducimus ipsum iure in ipsa animi reprehenderit vero.</p>
-</div>
+__This is bold text__
 
-<label for="name">FUll Name:</label>
+*This is italic text*
 
-<img src="https://img.jpg" alt="Zebra Image" width="300" height="200">
+_This is italic text_
 
-<a href="https://www.google.com" target="_blank"></a>
+~Strikethrough~
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BsDoLVMnmZs?si=3i8X3sleRQbl-Iw-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<br>
-<select name="car" id="car">
-    <option value="no-car">Select your car</option>
-    <option value="suzuki">Suzuki</option>
-    <option value="honda">Honda</option>
-    <option value="toyota">Toyota</option>
 
-<table>
-    <tr>
-        <td>S.no</td>
-        <td>Name</td>
-        <td>Score</td>
-        <td>Game</td>
-      </tr>
-</table>
+## Blockquotes
+
+
+> Blockquotes can also be nested...
+>> ...by usong additional greater-than signs right next to each other...
+>>> ...or with spaces between arrows.
+
+## Lists
+
+Unordered
+
++ Creat a list by starting a line with '+', '-', or '*'
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
+
+Ordered 
+
+1. Lorem ispum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+
+Block code "fences"
+
+```
+Sample text here...
+```
+
+Syntax highliting
+
+```js
+var foo = function (bar) {
+   return bar++;
+};
+
+console.log(foo(5));
+```
+
+## Tables
+
+| Options | Description |
+| ------- | ----------- |
+| data    | pah to data files to suppky the data that will be passed itno templates. |
+| engine  | engine to be used for rocessing templates. Handlebars is default. |
+| ext     | extension to be used for dest files. |
+
+Right aligned columns
+
+| Options | Description |
+| ------: | ----------: |
+| data    | pah to data files to suppky the data that will be passed itno templates. |
+| engine  | engine to be used for rocessing templates. Handlebars is default. |
+| ext     | extension to be used for dest files. |
+
+
+## Links
+
+[link text](http://dev.nodeca.com)
+
+[link with text](http://nodeca.github.io/pica/demo/ "title etxt!")
+
+## Images
+
+![Motion](https://octodex.githun.com/images/minion.png)
+
+## The End!
