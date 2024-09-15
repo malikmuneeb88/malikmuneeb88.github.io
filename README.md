@@ -81,7 +81,7 @@ console.log(foo(5));
 
 | Options | Description |
 | ------- | ----------- |
-| data    | pah to data files to suppky the data that will be passed itno templates. |
+| data    | path to data files to suppky the data that will be passed itno templates. |
 | engine  | engine to be used for rocessing templates. Handlebars is default. |
 | ext     | extension to be used for dest files. |
 
@@ -89,7 +89,7 @@ Right aligned columns
 
 | Options | Description |
 | ------: | ----------: |
-| data    | pah to data files to suppky the data that will be passed itno templates. |
+| data    | path to data files to suppky the data that will be passed itno templates. |
 | engine  | engine to be used for rocessing templates. Handlebars is default. |
 | ext     | extension to be used for dest files. |
 
