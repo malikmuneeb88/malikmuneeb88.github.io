@@ -102,6 +102,6 @@ Right aligned columns
 
 ## Images
 
-![Motion](https://octodex.githun.com/images/minion.png)
+![Motion](https://octodex.github.com/images/minion.png)
 
 ## The End!
